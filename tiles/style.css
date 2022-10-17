@@ -1,0 +1,152 @@
+.outer{
+	text-align: center;
+
+}
+
+.body{
+	margin:0;
+	padding:0;
+	background-color: #000;
+}
+
+.page{
+	font-family: 'Roboto', sans-serif;
+	position: relative;
+  font-size: 14px;
+	margin-top: 0px;
+	background-color: #FFF;
+	width: 100%;
+	height: 100%;
+	display: inline-block;
+	opacity: .6;
+	text-align:center;
+	font-weight: 400;
+
+}
+
+.topofpage{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: flex-start;
+	height: 100px;
+	background-color: gray;
+	font-family: 'Roboto', sans-serif;
+	position: sticky;
+	top: 0;
+  font-size: 16px;
+	text-align: center;
+	background-color: gray;
+	font-weight: 600;
+	z-index: 100;
+	opacity: .9;
+}
+
+.navbar{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 600;
+	position: sticky;
+	position: -webkit-sticky /* Safari */
+	top: 0;
+	width: 100%;
+	height: 100px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	align-items: center;
+	justify-content: flex-start;
+	flex-grow: 1;
+	text-align: center;
+	opacity: .9;
+	z-index: 100;
+}
+
+.nav{
+	display: inline-block;
+	padding-right: 50px;
+
+}
+.navright{
+margin-left: auto;
+
+}
+.logo{
+  max-width: 90px;
+  text-align:left;
+}
+.logo_img{
+  margin-top: 10px;
+  margin-left:10px;
+  width:50%;
+
+}
+.search{
+  align-content: flex-end;
+    margin-left: auto;
+    max-width: 50px;
+
+}
+.search_img{
+  width:50%;
+}
+
+.tile{
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	height: 400px;
+
+}
+
+.tilebg1{
+	background-image: url("img/furniture.png");
+
+}
+
+.tilebg2{
+	background-image: url("img/kids.png");
+
+}
+
+.tilebg3{
+	background-image: url("img/candy.jpg");
+
+}
+
+.tilebg4{
+	background-image: url("img/kitchen.jpg");
+
+}
+
+.tilebg5{
+	background-image: url("img/makeup.jpg");
+}
+
+.tilebg6{
+	background-image: url("img/toys.jpeg");
+}
+
+.content{
+	font-family: 'Roboto', sans-serif;
+	position: relative;
+	top: 0;
+  font-size: 16px;
+	text-align: center;
+	background-color: red;
+	font-weight: 600;
+	z-index: 100;
+}
+
+.navbar a{
+	text-decoration: none;
+	color: #FFF;
+}
+
+.navbar a:visited{
+	color: #FFF;
+
+}
+.navbar a:hover{
+	color: red;
+}
