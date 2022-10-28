@@ -95,7 +95,7 @@ div [class^="side_bar"]:last-of-type {
 .hero_text_headline{
   text-align: center;
   font-size: 28px;
-  margin: 50px;
+  margin: 30px;
   display: inline-block;
 }
 
@@ -109,7 +109,7 @@ div [class^="side_bar"]:last-of-type {
 .banner_3_headline{
   text-align: center;
   font-size: 28px;
-  margin: 50px;
+  margin: 30px;
   display: inline-block;
 }
 
@@ -123,7 +123,7 @@ div [class^="side_bar"]:last-of-type {
 .side_bar img{
   text-align: center;
   font-size: 28px;
-  margin: 50px;
+  margin: 5`0px;
   display: inline-block;
 }
 
