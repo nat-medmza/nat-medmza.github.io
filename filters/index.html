@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Filters</title>
+
+	<style>
+
+     .my_filter{
+
+      -webkit-filter: blur:(100px) grayscale(1) invert(200%);grayscale(1)
+      filter: blur(100px) grayscale(1)invert(200%)grayscale(1);
+
+     }
+
+    .my_filter:hover{
+
+      animation: 2s myfilteranimation forwards;
+
+    }
+
+     @keyframes myfilteranimation{
+
+	      100%{
+	       -webkit-filter: blur:(0px) grayscale(0)invert(200%) grayscale(1);
+	        filter: blur(0px)grayscale(0)invert(200%)grayscale(1);
+	       }
+
+     }
+
+	</style>
+</head>
+<body>
+
+	<img class="my_filter" src="img/halloween.jpeg" alt="Halloween">
+
+</body>
+</html>
